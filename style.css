@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Spline+Sans+Mono:wght@300;500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    backdrop-filter: saturate(1.8);
+    
+   
+}
+
+.section{
+  height: 100%;
+  width: 300%;
+  border: 1px solid;
+  background-image: url("background2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.info{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 15vh;
+    width: 100%;
+    padding-left: 10vh;
+    font-family: 'Pacifico', cursive;
+    color:#91105f;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+.quote{
+    height: 85vh;
+    font-size:7vh ;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vh;
+    justify-content: center;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 200;
+}
+#fa-instagram:hover{
+    color: #91105f;
+    cursor: pointer;
+}
+.social{
+    font-size: 4vh;
+    padding-top: 5vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
